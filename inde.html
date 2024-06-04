@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bom dia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Floresça!</title>
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+        <!DOCTYPE html>
+        <html lang="pt-BR">
+          <head>
+            <meta charset="UTF-8" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1.0"
+            />
+            <title>Surpresa Fofa</title>
+            <link rel="stylesheet" href="styles.css" />
+          </head>
+          <body>
+            <div class="container">
+              <button id="surpriseButton">Clique aqui para uma surpresa</button>
+              <div id="surpriseContent" class="hidden">
+                <img id="flowerImage" src="flores.png" alt="Flor fofa" />
+                <p id="message">
+                  Espero que você tenha um ótimo dia, você não pode voltar e
+                  mudar o começo mas pode começar de onde está e mudar o final.
+                  Ou seja começa cada dia um novo dia. Essa mensagem tem um
+                  único objetivo: te ver sorrindo.
+                </p>
+              </div>
+            </div>
+
+            <script>
+              document
+                .getElementById("surpriseButton")
+                .addEventListener("click", function () {
+                  var content = document.getElementById("surpriseContent");
+                  content.classList.toggle("hidden");
+                });
+            </script>
+          </body>
+        </html>
+      </body>
+    </html>
+  </body>
+</html>
